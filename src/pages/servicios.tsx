@@ -1,6 +1,5 @@
 import { Link } from "wouter";
-import { services } from "@/pages/servicio-detalle";
-import { ServiceImagePlaceholder } from "@/pages/servicio-detalle";
+import { services, ServiceImage } from "@/pages/servicio-detalle";
 
 const order = ["inversion", "financiacion", "planificacion-patrimonial", "banca-de-inversion", "operativa-diaria"] as const;
 
@@ -21,7 +20,7 @@ export default function Servicios() {
             const service = services[slug];
             return (
               <Link key={slug} href={`/servicios/${slug}`} data-testid={`service-card-${slug}`} className="group block">
-                <ServiceImagePlaceholder className="aspect-[4/3] w-full" />
+                <ServiceImage src={service.image} alt={service.title} className="aspect-[4/3] w-full" />
                 <p className="mt-6 text-[10px] uppercase tracking-[0.18em] text-[#000000]/45">{service.order}</p>
                 <h2 className="mt-2 text-[22px] font-medium tracking-[-0.04em] transition-transform group-hover:translate-x-1">{service.title}</h2>
                 <div className="mt-4 border-t border-[#D7D6D1]" />
