@@ -5,7 +5,6 @@ export const services = {
     order: "01",
     title: "Inversión",
     cardDescription: "Carteras diseñadas según el patrimonio, objetivos y situación de cada cliente.",
-    image: "/images/image.png",
     fullDescription: "Diseñamos estrategias de inversión adaptadas a la situación, objetivos, horizonte temporal y necesidades de liquidez de cada cliente. El acceso a una arquitectura abierta permite seleccionar entre una amplia variedad de fondos, gestoras y mercados, incorporando tanto activos cotizados como mercados privados y otras soluciones de inversión.",
     ambitos: [
       "Arquitectura abierta de fondos de inversión y planes de pensiones, renta variable y fija, derivados, productos estructurados…",
@@ -17,7 +16,6 @@ export const services = {
     order: "02",
     title: "Financiación",
     cardDescription: "Soluciones de financiación adaptadas a cada situación, con la posibilidad de utilizar el patrimonio como garantía.",
-    image: "/images/Captura_de_Pantalla_2026-09-08_a_las_22.07.47.png",
     fullDescription: "Estructuramos soluciones de financiación teniendo en cuenta el conjunto del patrimonio y las necesidades de cada cliente. El uso de activos financieros o inmobiliarios como garantía puede permitir obtener liquidez sin necesidad de desinvertir, preservando determinadas posiciones patrimoniales cuando resulta conveniente. Acompañamos al cliente durante todo el proceso, desde el análisis de la necesidad hasta la estructuración de la operación.",
     ambitos: ["Financiación hipotecaria", "Préstamos pignorados", "Estructuración de pasivos"],
   },
@@ -25,7 +23,6 @@ export const services = {
     order: "03",
     title: "Planificación",
     cardDescription: "Planificación financiera, patrimonial, fiscal y sucesoria, integrada en una misma estrategia.",
-    image: "/images/Captura_de_Pantalla_2026-09-08_a_las_22.08.02.png",
     fullDescription: "Una estrategia patrimonial requiere anticipar las decisiones que pueden afectar a la estructura, evolución y transmisión del patrimonio. Analizamos la situación patrimonial y familiar de cada cliente para identificar las necesidades presentes y los objetivos futuros. Integramos planificación financiera, patrimonial, fiscal y sucesoria en una misma visión. El objetivo es construir una estructura coherente, eficiente y preparada para las distintas etapas de la vida del cliente.",
     ambitos: ["Planificación financiera", "Planificación patrimonial", "Planificación sucesoria", "Eficiencia fiscal"],
   },
@@ -33,7 +30,6 @@ export const services = {
     order: "04",
     title: "Banca de Inversión",
     cardDescription: "Operaciones corporativas y decisiones estratégicas: M&A, ampliaciones de capital y emisión de deuda.",
-    image: "/images/image copy.png",
     fullDescription: "Las decisiones empresariales tienen también una dimensión patrimonial. Acompañamos a empresarios y accionistas en operaciones corporativas, analizando sus implicaciones desde una perspectiva financiera y patrimonial. Trabajamos junto al cliente durante las distintas fases de la operación y coordinamos el proceso con los especialistas necesarios para abordar cada decisión con una visión global.",
     ambitos: ["M&A (fusiones y adquisiciones)", "ECM (ampliaciones de capital)", "DCM (emisión de deuda)"],
   },
@@ -41,7 +37,6 @@ export const services = {
     order: "05",
     title: "Operativa del día a día",
     cardDescription: "Gestión bancaria cotidiana, para que nuestros clientes puedan centrarse en las decisiones que realmente importan.",
-    image: "/images/image copy 2.png",
     fullDescription: "Coordinamos las necesidades bancarias del día a día para simplificar la gestión financiera y evitar que las cuestiones operativas resten tiempo a las decisiones realmente importantes. Centralizamos y coordinamos las principales necesidades bancarias del cliente, desde la operativa de cuentas y medios de pago hasta la gestión de cobros, pagos y obligaciones recurrentes.",
     ambitos: ["Cuentas corrientes, cheques, cobros y pagos", "Contabilidad doméstica", "Tarjetas de crédito y débito", "Gestión de domiciliaciones", "Pago de impuestos"],
   },
@@ -50,8 +45,13 @@ export const services = {
 export type ServiceSlug = keyof typeof services;
 const order: ServiceSlug[] = ["inversion", "financiacion", "planificacion-patrimonial", "banca-de-inversion", "operativa-diaria"];
 
-export function ServiceImage({ src, alt, className = "" }: { src: string; alt: string; className?: string }) {
-  return <img src={src} alt={alt} className={`editorial-image h-full w-full object-cover ${className}`} />;
+/** Placeholder visual para las 5 imágenes de servicio — el cliente subirá las imágenes definitivas. */
+export function ServiceImagePlaceholder({ className = "" }: { className?: string }) {
+  return (
+    <div className={`relative flex items-center justify-center bg-[#E5E7EA] ${className}`}>
+      <span className="text-[10px] uppercase tracking-[0.16em] text-[#000000]/35">Imagen pendiente</span>
+    </div>
+  );
 }
 
 export default function ServicioDetalle({ slug }: { slug: ServiceSlug }) {
@@ -64,7 +64,7 @@ export default function ServicioDetalle({ slug }: { slug: ServiceSlug }) {
     <div>
       <section className="border-b border-[#E5E7EA] px-6 pb-16 pt-36 md:px-10 md:pb-20 lg:px-14">
         <div className="mx-auto grid max-w-[1440px] items-end gap-12 md:grid-cols-12">
-          <ServiceImage src={service.image} alt={service.title} className="h-[260px] md:col-span-5 md:h-[340px]" />
+          <ServiceImagePlaceholder className="h-[260px] md:col-span-5 md:h-[340px]" />
           <div className="md:col-span-6 md:col-start-7">
             <p className="text-[10px] uppercase tracking-[0.2em] text-[#111111]/55">Servicio {service.order}</p>
             <h1 className="mt-6 max-w-[650px] text-[clamp(34px,4.2vw,62px)] font-normal leading-[.98] tracking-[-0.07em]">{service.title}</h1>
