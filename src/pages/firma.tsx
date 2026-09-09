@@ -5,7 +5,7 @@ export default function Firma() {
     <div>
       {/* SOBRE NOSOTROS */}
       <section className="relative min-h-[60dvh] overflow-hidden bg-[#E8E7E3] px-6 pb-16 pt-36 md:px-10 lg:px-14">
-        <div className="mx-auto grid max-w-[1440px] items-end gap-4 md:grid-cols-12">
+        <div className="mx-auto grid max-w-[1440px] items-start gap-4 md:grid-cols-12">
           <div className="relative z-10 md:col-span-6"><p className="mb-6 text-[10px] uppercase tracking-[0.2em] text-[#111111]/55">Sobre nosotros</p><h1 className="max-w-[820px] text-[clamp(28px,3.4vw,48px)] font-normal leading-[1.1] tracking-[-0.06em]">Más de 25 años de experiencia</h1><p className="mt-7 max-w-[590px] text-[17px] leading-7 text-[#111111]/70">Somos agentes financieros de Singular Bank, asesoramos y acompañamos a nuestros clientes para proteger y hacer crecer su patrimonio.</p><p className="mt-4 max-w-[590px] text-[17px] leading-7 text-[#111111]/70">Ambos socios contamos con más de 25 años en Banca Privada, habiendo ocupado posiciones directivas en bancos líderes como Deutsche Bank, Caixa Bank, Barclays, UBS y Singular Bank.</p></div>
           <div className="h-[240px] md:col-span-6 md:h-[360px]"><img src="/images/sobrenosotros.png" alt="Sobre nosotros" className="editorial-image h-full w-full object-contain" /></div>
         </div>
