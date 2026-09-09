@@ -14,10 +14,11 @@ export default function Home() {
     <div>
       {/* 3.1 HERO */}
       <section className="relative min-h-[92dvh] overflow-hidden bg-[#0B1728] text-[#F7F7F5]">
-        <div className="absolute inset-0 md:left-[44%]">
-          <img src="/images/cambios-page-29-1.png" alt="Columnas arquitectónicas en blanco y negro" className="editorial-image h-full w-full object-contain object-top opacity-85" fetchPriority="high" />
+        <div className="absolute inset-0">
+          <img src="/images/Captura_de_Pantalla_2026-09-09_a_las_11.18.57.png" alt="Paisaje de montaña nevada" className="editorial-image h-full w-full object-cover" style={{ filter: "grayscale(100%) contrast(1.05)" }} fetchPriority="high" />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0B1728] via-[#0B1728]/90 to-[#0B1728]/15 md:w-[70%]" />
+        <div className="absolute inset-0 bg-[#0B1728]/20" />
+        <div className="absolute inset-0 bg-[linear-gradient(to_top_right,rgba(11,23,40,0.98)_0%,rgba(11,23,40,0.78)_34%,rgba(11,23,40,0.28)_66%,transparent_100%)]" />
         <div className="relative mx-auto flex min-h-[92dvh] max-w-[1440px] items-end px-6 pb-14 pt-28 md:px-10 md:pb-20 lg:px-14">
           <div className="max-w-[760px] reveal">
             <p className="mb-7 text-[34px] font-semibold uppercase leading-none tracking-[-0.05em] text-[#F7F7F5]">Banca privada</p>
