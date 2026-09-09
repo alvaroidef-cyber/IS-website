@@ -13,19 +13,19 @@ export default function Home() {
   return (
     <div>
       {/* 3.1 HERO */}
-      <section className="relative min-h-[92dvh] overflow-hidden bg-[#0B1728] text-[#F7F7F5]">
+      <section className="relative min-h-[92dvh] overflow-hidden bg-[#F5F5F5]">
         <div className="absolute inset-0">
-          <img src="/images/Captura_de_Pantalla_2026-09-09_a_las_11.18.57.png" alt="Paisaje de montaña nevada" className="editorial-image h-full w-full object-cover" style={{ filter: "grayscale(1)" }} />
+          <img src="/images/hero-mountains.jpg" alt="Montañas nevadas" className="editorial-image h-full w-full object-cover" style={{ filter: "grayscale(1)" }} />
         </div>
-        <div className="absolute inset-0 bg-[#0B1728]/20" />
-        <div className="absolute inset-0 bg-[linear-gradient(to_top_right,rgba(11,23,40,0.98)_0%,rgba(11,23,40,0.78)_34%,rgba(11,23,40,0.28)_66%,transparent_100%)]" />
+        <div className="absolute inset-0 bg-[#F5F5F5]/30" />
+        <div className="absolute inset-0 bg-[linear-gradient(to_top_right,rgba(245,245,245,0.75)_0%,rgba(245,245,245,0.55)_34%,rgba(245,245,245,0.15)_66%,transparent_100%)]" />
         <div className="relative mx-auto flex min-h-[92dvh] max-w-[1440px] items-center justify-center px-6 pt-28 md:px-10 lg:px-14">
           <div className="reveal text-center">
             <h1 className="mx-auto max-w-[900px] text-[clamp(40px,6.4vw,88px)] font-medium leading-[.96] tracking-[-0.075em] text-[#111111]">Asesoramiento financiero y patrimonial.</h1>
             <p className="mx-auto mt-8 max-w-[480px] text-[20px] leading-8 text-[#111111]">IS Wealth Advisors es una firma especializada en el asesoramiento financiero y patrimonial de grandes patrimonios, familias y organizaciones.</p>
           </div>
         </div>
-        <span className="absolute bottom-7 right-6 text-[10px] tracking-[0.16em] text-[#F7F7F5]/45 md:right-14">01 / 06</span>
+        <span className="absolute bottom-7 right-6 text-[10px] tracking-[0.16em] text-[#111111]/45 md:right-14">01 / 06</span>
       </section>
 
       {/* 3.2 BANCA PRIVADA */}
