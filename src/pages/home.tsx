@@ -50,9 +50,9 @@ export default function Home() {
         <div className="mx-auto max-w-[1440px]">
           <p className="mb-5 text-[10px] uppercase tracking-[0.2em] text-[#111111]/55">Nuestro equipo</p>
           <h2 className="max-w-[760px] text-[clamp(32px,4.2vw,60px)] font-medium leading-[.98] tracking-[-0.07em]">Más de 25 años de experiencia en banca privada.</h2>
-          <div className="mt-12 grid gap-10 md:grid-cols-2 md:max-w-[800px]">
-             <Link href="/socios/christian-izquierdo-abadia" data-testid="link-christian" className="group"><div className="aspect-[9/11] overflow-hidden"><img src="/images/christian.png" alt="Christian Izquierdo Abadía" className="editorial-image h-full w-full object-contain transition-transform duration-300 group-hover:scale-105" /></div><p className="mt-4 text-[16px] font-medium">Christian Izquierdo Abadía</p><p className="text-[13px] text-[#111111]/65">Socio Fundador</p></Link>
-             <Link href="/socios/angel-sanz-de-ayala" data-testid="link-angel" className="group md:mt-0"><div className="aspect-[9/11] overflow-hidden"><img src="/images/angel.png" alt="Ángel Sanz de Ayala" className="editorial-image h-full w-full object-contain transition-transform duration-300 group-hover:scale-105" /></div><p className="mt-4 text-[16px] font-medium">Ángel Sanz de Ayala</p><p className="text-[13px] text-[#111111]/65">Socio Fundador</p></Link>
+          <div className="mt-12 grid gap-10 md:grid-cols-2">
+             <Link href="/socios/christian-izquierdo-abadia" data-testid="link-christian" className="group"><div className="aspect-[1.05] overflow-hidden"><img src="/images/christian.png" alt="Christian Izquierdo Abadía" className="editorial-image h-full w-full object-contain transition-transform duration-300 group-hover:scale-105" /></div><p className="mt-4 text-[16px] font-medium">Christian Izquierdo Abadía</p><p className="text-[13px] text-[#111111]/65">Socio Fundador</p></Link>
+             <Link href="/socios/angel-sanz-de-ayala" data-testid="link-angel" className="group md:mt-24"><div className="aspect-[1.05] overflow-hidden"><img src="/images/angel.png" alt="Ángel Sanz de Ayala" className="editorial-image h-full w-full object-contain transition-transform duration-300 group-hover:scale-105" /></div><p className="mt-4 text-[16px] font-medium">Ángel Sanz de Ayala</p><p className="text-[13px] text-[#111111]/65">Socio Fundador</p></Link>
           </div>
         </div>
       </section>
