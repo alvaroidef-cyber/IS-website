@@ -11,17 +11,6 @@ export default function Firma() {
         </div>
       </section>
 
-      {/* NUESTRO PROPÓSITO */}
-      <section className="px-6 py-20 md:px-10 md:py-28 lg:px-14">
-        <div className="mx-auto grid max-w-[1440px] gap-10 md:grid-cols-12">
-          <p className="text-[10px] uppercase tracking-[0.2em] text-[#111111]/55 md:col-span-3">Nuestro propósito</p>
-          <div className="md:col-span-7 md:col-start-6">
-            <h2 className="max-w-[700px] text-[clamp(28px,3.4vw,48px)] font-normal leading-[1.1] tracking-[-0.06em]">Acompañar. Entender. Aportar criterio.</h2>
-            <p className="mt-7 max-w-[590px] text-[17px] leading-7 text-[#111111]/70">Nuestro propósito es acompañar a nuestros clientes en las decisiones relevantes de su vida y de su patrimonio.</p>
-          </div>
-        </div>
-      </section>
-
       {/* NUESTRO EQUIPO — misma tarjeta que en Inicio */}
       <section id="socios" className="border-t border-[#E5E7EA] px-6 py-16 md:px-10 md:py-24 lg:px-14">
         <div className="mx-auto max-w-[1440px]">
