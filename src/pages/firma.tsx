@@ -32,9 +32,9 @@ export default function Firma() {
               <h2 className="max-w-[780px] text-[clamp(29px,3.6vw,50px)] font-normal leading-[1.05] tracking-[-0.065em]">La banca privada independiente líder en España.</h2>
             </div>
             <div className="md:col-span-6 md:col-start-1 md:mt-4">
-              <p className="max-w-[560px] text-[17px] leading-7 text-[#000000]/65">Singular Bank es una entidad independiente especializada en banca privada.</p>
-              <p className="mt-4 max-w-[560px] text-[17px] leading-7 text-[#000000]/65">Su modelo de arquitectura abierta permite acceder a una amplia selección de fondos, gestoras y mercados globales.</p>
-              <p className="mt-4 max-w-[560px] text-[17px] leading-7 text-[#000000]/65">Ponemos a disposición de nuestros clientes una plataforma financiera global y un amplio universo de soluciones.</p>
+              <p className="max-w-[560px] text-[17px] leading-7 text-[#000000]/65">Singular Bank es una entidad financiera independiente especializada en banca privada y gestión de patrimonios.</p>
+              <p className="mt-4 max-w-[560px] text-[17px] leading-7 text-[#000000]/65">Su modelo de arquitectura abierta permite acceder a una amplia selección de fondos, gestoras y mercados globales, seleccionando en cada caso las soluciones que mejor responden a las necesidades de cada cliente.</p>
+              <p className="mt-4 max-w-[560px] text-[17px] leading-7 text-[#000000]/65">Nuestra vinculación con Singular Bank nos permite complementar nuestro asesoramiento con el respaldo de una plataforma financiera global, equipos especializados y una amplia gama de soluciones de inversión, financiación y servicios bancarios.</p>
             </div>
           </div>
         </div>
