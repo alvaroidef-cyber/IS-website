@@ -86,7 +86,7 @@ export default function Home() {
       </section>
 
       {/* 3.6 FILOSOFÍA — imagen izquierda, texto/lista derecha */}
-      <section className="border-t border-[#D7D6D1] px-6 py-16 md:px-10 md:py-24 lg:px-14">
+      <section className="border-t border-[#D7D6D1] bg-[#E8E7E3] px-6 py-16 md:px-10 md:py-24 lg:px-14">
         <div className="mx-auto grid max-w-[1440px] items-center gap-10 md:grid-cols-12 md:gap-14">
           <div className="h-[300px] md:col-span-5 md:h-[440px]">
             <img src="/images/lake-reflection.jpg" alt="Paisaje sereno reflejado en el agua" loading="lazy" className="editorial-image h-full w-full object-cover" />
