@@ -22,7 +22,7 @@ export default function Home() {
         <div className="relative mx-auto flex min-h-[92dvh] max-w-[1440px] items-center justify-center px-6 pt-28 md:px-10 lg:px-14">
           <div className="reveal text-center">
             <h1 className="mx-auto max-w-[900px] text-[clamp(40px,6.4vw,88px)] font-medium leading-[.96] tracking-[-0.075em] text-[#111111]">Asesoramiento financiero y patrimonial.</h1>
-            <p className="mx-auto mt-8 max-w-[480px] text-[20px] leading-8 text-[#111111]">IS Wealth Advisors es una firma especializada en el asesoramiento financiero y patrimonial de grandes patrimonios, familias y organizaciones.</p>
+            <p className="mx-auto mt-8 max-w-[480px] text-[20px] leading-8 text-[#111111]">IS Wealth Advisors es una firma especializada en el asesoramiento financiero<br />y patrimonial de grandes patrimonios, familias y organizaciones.</p>
           </div>
         </div>
         <span className="absolute bottom-7 right-6 text-[10px] tracking-[0.16em] text-[#111111]/45 md:right-14">01 / 06</span>
