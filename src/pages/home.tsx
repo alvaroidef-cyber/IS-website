@@ -15,7 +15,7 @@ export default function Home() {
       {/* 3.1 HERO */}
       <section className="relative min-h-[92dvh] overflow-hidden bg-[#F5F5F5]">
         <div className="absolute inset-0">
-          <img src="/images/hero-mountains.jpg" alt="Montañas nevadas" className="editorial-image h-full w-full object-cover" style={{ filter: "grayscale(1)" }} />
+          <img src="/images/hero-mountains.jpg" alt="Montañas nevadas" className="editorial-image h-full w-full object-cover" style={{ filter: "grayscale(0.4)" }} />
         </div>
         <div className="absolute inset-0 bg-[#F5F5F5]/30" />
         <div className="absolute inset-0 bg-[linear-gradient(to_top_right,rgba(245,245,245,0.75)_0%,rgba(245,245,245,0.55)_34%,rgba(245,245,245,0.15)_66%,transparent_100%)]" />
